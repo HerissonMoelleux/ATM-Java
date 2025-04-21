@@ -1,16 +1,16 @@
 # ATM Transaction Log — JavaFX + PostgreSQL CRUD Application
 
-## 👤 Student
+## Student
 **Name:** Shaiakhmetov Amir
 
 ---
 
-## 📋 Description
+## Description
 This project is a graphical Java application that simulates an ATM transaction log system. Users can deposit, withdraw, update, and delete transaction records using a modern JavaFX interface. All data is stored in a PostgreSQL database, and logs are written to a file for audit purposes.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Build a JavaFX-based desktop GUI for ATM operations
 - Allow full CRUD operations for transaction records
 - Use PostgreSQL for reliable, persistent data storage
@@ -21,7 +21,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## ✅ Project Requirements
+## Project Requirements
 ### Functional Requirements
 1. Create transactions with unique UUID, type (deposit/withdraw), and amount
 2. Read and view all transactions in a JavaFX GUI
@@ -36,15 +36,15 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## 🧠 Project Documentation
-### 📦 Components and Classes
+## Project Documentation
+### Components and Classes
 - `Main.java` — JavaFX launcher
 - `ATMJavaFX.java` — JavaFX interface class for user interaction
 - `ATM.java` — business logic layer (CRUD operations, reporting, balance)
 - `Transaction.java` — transaction model with fields `id`, `type`, `amount`
 - `Database.java` — PostgreSQL JDBC connection class
 
-### 🛠 Core Functions
+### Core Functions
 - `getTransactions()` — fetches all records from DB
 - `addTransaction()` — inserts new record
 - `updateTransaction(index, amount)` — updates transaction by UUID
@@ -52,7 +52,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 - `getBalance()` — real-time SUM of all amounts
 - `generateReport()` — totals by type, with formatted string output
 
-### 🧠 Data Model (PostgreSQL table `transactions`)
+### Data Model (PostgreSQL table `transactions`)
 | Column       | Type              | Description                         |
 |--------------|-------------------|-------------------------------------|
 | id           | UUID              | Primary key                         |
@@ -65,7 +65,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## ⚙️ Algorithms and Logic
+## Algorithms and Logic
 - CRUD SQL logic using JDBC
 - Validation for numeric fields (amount > 0)
 - Real-time update of GUI upon DB operation
@@ -74,7 +74,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## 🔧 Challenges Faced
+## Challenges Faced
 - Transitioning from file-based storage to PostgreSQL
 - Keeping GUI and DB in sync with real-time updates
 - Implementing indexed selection logic for updates/deletes
@@ -82,7 +82,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## 🧪 Test Cases and Expected Outputs
+## Test Cases and Expected Outputs
 | Operation           | Input                  | Output / GUI Result                    |
 |---------------------|------------------------|----------------------------------------|
 | Deposit             | 1000.0                 | Внесено: 1000.0                        |
@@ -102,7 +102,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## 🧼 Code Quality
+## Code Quality
 - Modular structure with clear separation of UI/logic/data
 - Proper error handling for database failures
 - Minimal use of comments; code is self-documenting
@@ -110,7 +110,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## 📁 Files Included
+## Files Included
 - `Main.java` — launches JavaFX app
 - `ATM.java` — business logic
 - `ATMJavaFX.java` — GUI code (JavaFX)
@@ -121,7 +121,7 @@ This project is a graphical Java application that simulates an ATM transaction l
 
 ---
 
-## ▶️ How to Compile and Run
+## How to Compile and Run
 ### Requirements:
 - JDK 11 or higher
 - JavaFX SDK 21
@@ -137,6 +137,5 @@ javac --module-path "javafx-sdk-21/lib" --add-modules javafx.controls -cp ".;pos
 ```bash
 java --module-path "javafx-sdk-21/lib" --add-modules javafx.controls -cp ".;postgresql-42.7.5.jar" Main
 ```
-
-✅ You are now running a fully functional PostgreSQL-backed ATM transaction log system built with JavaFX!
+You are now running a fully functional PostgreSQL-backed ATM transaction log system built with JavaFX!
 
