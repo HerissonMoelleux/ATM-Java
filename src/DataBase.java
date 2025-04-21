@@ -1,16 +1,13 @@
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
-public class DataBase {
-    public static Connection connect() {
-        try {
-            String url = "jdbc:postgresql://localhost:5432/atm_database";
-            String user = "postgres";
-            String password = "AmiPostgres";
+class Database{
+    private static final String URL = "jdbc:postgresql://localhost:5432/atm_database";
+    private static final String USER = "postgres";
+    private static final String PASSWORD = "AmiPostgres";
 
-            return DriverManager.getConnection(url, user, password);
-        } catch (SQLException e) {
-            System.out.println("Ошибка подключения к базе данных: " + e.getMessage());
-            return null;
-        }
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }

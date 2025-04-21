@@ -12,9 +12,8 @@ public class ATMJavaFX {
     private final TextArea output = new TextArea();
     private final TextField amountField = new TextField();
 
-    public ATMJavaFX(String dataFile, String logFile) {
-        atm = new ATM(dataFile, logFile);
-        atm.loadTransactions();
+    public ATMJavaFX(String logFile) {
+        atm = new ATM(logFile);
     }
 
     public void start(Stage stage) {

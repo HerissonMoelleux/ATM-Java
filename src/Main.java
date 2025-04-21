@@ -4,7 +4,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
-        ATMJavaFX gui = new ATMJavaFX("transactions.txt", "activity.log");
+        ATMJavaFX gui = new ATMJavaFX("activity.log");
         gui.start(primaryStage);
     }
 
