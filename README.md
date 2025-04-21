@@ -90,13 +90,12 @@ This project is a graphical Java application that simulates an ATM transaction l
 | View Balance        | -                      | Баланс: 1000.0                         |
 | Generate Report     | -                      | Форматированный отчет                  |
 
-
-![Снимок экрана (47)](https://github.com/user-attachments/assets/b24fc15e-795d-4596-853b-ecf649b5bd8f)
-![Снимок экрана (48)](https://github.com/user-attachments/assets/bc7566ea-d0ba-431c-a427-d9bc331df418)
-![Снимок экрана (49)](https://github.com/user-attachments/assets/799f9d51-1937-4e56-b640-69b61f05e2cb)
 ![Снимок экрана (44)](https://github.com/user-attachments/assets/93c622d5-b4ac-4f4c-8ffa-c4dac84d8c69)
 ![Снимок экрана (45)](https://github.com/user-attachments/assets/d022efd9-b2ea-4ac8-b85b-b306f2bf0f2d)
 ![Снимок экрана (46)](https://github.com/user-attachments/assets/1caea581-c738-4c47-a88d-b4a745765d6f)
+![Снимок экрана (47)](https://github.com/user-attachments/assets/b24fc15e-795d-4596-853b-ecf649b5bd8f)
+![Снимок экрана (48)](https://github.com/user-attachments/assets/bc7566ea-d0ba-431c-a427-d9bc331df418)
+![Снимок экрана (49)](https://github.com/user-attachments/assets/799f9d51-1937-4e56-b640-69b61f05e2cb)
 
 ---
 
