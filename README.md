@@ -60,6 +60,9 @@ This project is a graphical Java application that simulates an ATM transaction l
 | amount       | DOUBLE PRECISION  | Transaction amount                  |
 | created_at   | TIMESTAMP         | Time of transaction (auto-generated)|
 
+![image](https://github.com/user-attachments/assets/b013ed50-d2c7-4fa3-a35b-4f4ba3250503)
+
+
 ---
 
 ## ⚙️ Algorithms and Logic
