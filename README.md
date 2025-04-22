@@ -139,3 +139,5 @@ java --module-path "javafx-sdk-21/lib" --add-modules javafx.controls -cp ".;post
 ```
 You are now running a fully functional PostgreSQL-backed ATM transaction log system built with JavaFX!
 
+### My Presentation here:
+https://www.canva.com/design/DAGlWcoRiPc/44OOgsSXoSz6EHM6Bv8yCg/view?utm_content=DAGlWcoRiPc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h08cb0e36b2
