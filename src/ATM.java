@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -144,6 +146,8 @@ class ATM {
     }
 
     private void log(String msg) {
-        // Логирование осталось прежним
+        try (FileWriter fw = new FileWriter(logFile, true)) {
+            fw.write(new Date() + ": " + msg + "\n");
+        } catch (IOException ignored) {}
     }
 }
